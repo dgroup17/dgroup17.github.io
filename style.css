@@ -1,0 +1,165 @@
+@charset "UTF-8";
+@import url(http://fonts.googleapis.com/earlyaccess/notosansjapanese.css);
+@-ms-viewport {
+  width: device-width;
+}
+
+/* Noto Sans Japanese (japanese)
+http://www.google.com/fonts/earlyaccess */
+body {
+  font-family: 'Noto Sans Japanese','Helvetica Neue','Roboto',Meiryo,sans-serif;
+  font-weight: 400;
+  font-size: 1.15rem;
+  -webkit-font-smoothing: subpixel–antialiased;
+  -webkit-text-size-adjust: none;
+  text-rendering: optimizeLegibility;
+  margin: 0 auto;
+  padding: 0;
+  text-align: center;
+  background-color: #FFF;
+  /*max-width: 768px;*/
+  max-width: 1126px;
+  min-width: 1125px;
+  /* for IF6 */
+  _font-family: "MS PGothic",Sans-Serif;
+}
+
+p {
+  color: #101010;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:link {
+  color: #D9D9D9;
+}
+
+a:visited {
+  color: #D9D9D9;
+}
+
+a:hover {
+  color: #D9D9D9;
+}
+
+a:active {
+  color: #D9D9D9;
+}
+
+.header {
+  position: relative;
+  overflow: hidden;
+  text-align: center;
+  margin: 0 auto 25px auto;
+  width: 1125px;
+}
+
+.header #video {
+  position: relative;
+  width: 1125px;
+  top: 0;
+  margin: 0 auto;
+  z-index: -100;
+  text-align: center;
+}
+
+.header__sns {
+  margin: 10px 25px 0 -25px;
+  text-align: right;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
+
+.header__container {
+  margin: 200px auto 0 120px;
+  text-align: justify;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  line-height: 95%;
+  z-index: 1;
+  color: #FFF;
+  font-size: 130px;
+  font-weight: 700;
+}
+
+.header__container img {
+  margin-bottom: 25px;
+  vertical-align: top;
+}
+
+.movie {
+  margin: 45px 0 20px 0;
+  text-align: center;
+  min-width: 1125px;
+}
+
+.movie img {
+  vertical-align: top;
+  margin: 0 10px;
+}
+
+.movie__notice {
+  width: 736px;
+  text-align: right;
+  margin: 0 auto 0 auto;
+}
+
+.abstract {
+  margin: 0 auto 25px auto;
+  text-align: center;
+}
+
+.border {
+  margin: 20px auto;
+}
+
+.play {
+  margin: 30px auto;
+  text-align: center;
+}
+
+.play__header {
+  margin-bottom: 60px;
+}
+
+.play__container img {
+  vertical-align: top;
+  margin: 0px 15px;
+}
+
+.link {
+  margin: 40px auto 60px auto;
+}
+
+.link__header {
+  margin: 50px auto 30px auto;
+  text-align: center;
+  width: 100%;
+  z-index: 1;
+  font-size: 50px;
+  font-weight: 700;
+}
+
+.link__container img {
+  margin: 5px 15px;
+  vertical-align: middle;
+  border-color: #101010;
+}
+
+.footer {
+  margin-bottom: 20px;
+}
+
+.footer__credit {
+  font-size: 16px;
+  font-weight: 200;
+  margin: 20px auto 0 auto;
+}
